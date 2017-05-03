@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7125F8B1B49C212002B1988 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7125F8A1B49C212002B1988 /* Images-2.xcassets */; };
+		A72942A21B23104500A5938E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72942A11B23104500A5938E /* AppDelegate.swift */; };
+		A72942A41B23104500A5938E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72942A31B23104500A5938E /* MasterViewController.swift */; };
+		A72942A61B23104500A5938E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72942A51B23104500A5938E /* DetailViewController.swift */; };
+		A72942A91B23104500A5938E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72942A71B23104500A5938E /* Main.storyboard */; };
+		A72942AB1B23104500A5938E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72942AA1B23104500A5938E /* Images.xcassets */; };
+		A72942AE1B23104500A5938E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A72942AC1B23104500A5938E /* LaunchScreen.xib */; };
+		A72942BA1B23104500A5938E /* BeamGrapherForIpadV_0_0_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72942B91B23104500A5938E /* BeamGrapherForIpadV_0_0_3Tests.swift */; };
+		A72942C61B23B85A00A5938E /* CustomCell_EditBeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72942C51B23B85A00A5938E /* CustomCell_EditBeam.swift */; };
+		A72942C81B24607000A5938E /* CustomCell_BeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72942C71B24607000A5938E /* CustomCell_BeamData.swift */; };
+		A72942CC1B24778400A5938E /* ViewController_EditBeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72942CB1B24778400A5938E /* ViewController_EditBeam.swift */; };
+		A72942CE1B247AFF00A5938E /* myProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72942CD1B247AFF00A5938E /* myProtocols.swift */; };
+		A73395951B25AAB100CAF7D5 /* 12x33_concentrated.png in Resources */ = {isa = PBXBuildFile; fileRef = A73395911B25AAB100CAF7D5 /* 12x33_concentrated.png */; };
+		A73395961B25AAB100CAF7D5 /* 40x33 LinearDown.png in Resources */ = {isa = PBXBuildFile; fileRef = A73395921B25AAB100CAF7D5 /* 40x33 LinearDown.png */; };
+		A73395971B25AAB100CAF7D5 /* 40x33_LinearUp.png in Resources */ = {isa = PBXBuildFile; fileRef = A73395931B25AAB100CAF7D5 /* 40x33_LinearUp.png */; };
+		A73395981B25AAB100CAF7D5 /* 40x33_Uniform.png in Resources */ = {isa = PBXBuildFile; fileRef = A73395941B25AAB100CAF7D5 /* 40x33_Uniform.png */; };
+		A733959B1B25C8A700CAF7D5 /* ViewController_EditLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = A733959A1B25C8A700CAF7D5 /* ViewController_EditLoad.swift */; };
+		A74E53091B26FF12003D9E98 /* CustomCell_LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E53081B26FF12003D9E98 /* CustomCell_LoadData.swift */; };
+		A74E530D1B2710AC003D9E98 /* MWBeamGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E530C1B2710AC003D9E98 /* MWBeamGeneral.swift */; };
+		A74E530F1B2720D3003D9E98 /* iosNumUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E530E1B2720D3003D9E98 /* iosNumUtil.swift */; };
+		A74E53111B285564003D9E98 /* MWLoadGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E53101B285564003D9E98 /* MWLoadGraphView.swift */; };
+		A74E53131B2869EB003D9E98 /* MWBeamGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E53121B2869EB003D9E98 /* MWBeamGraphView.swift */; };
+		A77419CE1B2EEA9500732B07 /* MWBeamForceUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77419CD1B2EEA9500732B07 /* MWBeamForceUnits.swift */; };
+		A79F00891B36E30300387BB8 /* ViewController_Calcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F00881B36E30300387BB8 /* ViewController_Calcs.swift */; };
+		A7BF21C61B3B507B00592B22 /* MWTextFormatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF21C51B3B507B00592B22 /* MWTextFormatHelper.swift */; };
+		A7C100F41B32DC7300AA93E6 /* ViewController_DataGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C100F31B32DC7300AA93E6 /* ViewController_DataGrid.swift */; };
+		A7C100F61B32DF5800AA93E6 /* CustomCell_TabularHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C100F51B32DF5800AA93E6 /* CustomCell_TabularHeader.swift */; };
+		A7C100F81B32E9FB00AA93E6 /* CustomCell_GridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C100F71B32E9FB00AA93E6 /* CustomCell_GridData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A72942B41B23104500A5938E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72942941B23104500A5938E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A729429B1B23104500A5938E;
+			remoteInfo = BeamGrapherForIpadV_0.0.3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7125F8A1B49C212002B1988 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		A729429C1B23104500A5938E /* BeamGrapherForIpadV_0.0.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeamGrapherForIpadV_0.0.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72942A01B23104500A5938E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72942A11B23104500A5938E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A72942A31B23104500A5938E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A72942A51B23104500A5938E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A72942A81B23104500A5938E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A72942AA1B23104500A5938E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A72942AD1B23104500A5938E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A72942B31B23104500A5938E /* BeamGrapherForIpadV_0.0.3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamGrapherForIpadV_0.0.3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72942B81B23104500A5938E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72942B91B23104500A5938E /* BeamGrapherForIpadV_0_0_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeamGrapherForIpadV_0_0_3Tests.swift; sourceTree = "<group>"; };
+		A72942C51B23B85A00A5938E /* CustomCell_EditBeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell_EditBeam.swift; sourceTree = "<group>"; };
+		A72942C71B24607000A5938E /* CustomCell_BeamData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell_BeamData.swift; sourceTree = "<group>"; };
+		A72942CB1B24778400A5938E /* ViewController_EditBeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_EditBeam.swift; sourceTree = "<group>"; };
+		A72942CD1B247AFF00A5938E /* myProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myProtocols.swift; sourceTree = "<group>"; };
+		A73395911B25AAB100CAF7D5 /* 12x33_concentrated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12x33_concentrated.png; path = BeamGrapherForIpadV_0.0.3/Images.xcassets/12x33_concentrated.png; sourceTree = "<group>"; };
+		A73395921B25AAB100CAF7D5 /* 40x33 LinearDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "40x33 LinearDown.png"; path = "BeamGrapherForIpadV_0.0.3/Images.xcassets/40x33 LinearDown.png"; sourceTree = "<group>"; };
+		A73395931B25AAB100CAF7D5 /* 40x33_LinearUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 40x33_LinearUp.png; path = BeamGrapherForIpadV_0.0.3/Images.xcassets/40x33_LinearUp.png; sourceTree = "<group>"; };
+		A73395941B25AAB100CAF7D5 /* 40x33_Uniform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 40x33_Uniform.png; path = BeamGrapherForIpadV_0.0.3/Images.xcassets/40x33_Uniform.png; sourceTree = "<group>"; };
+		A733959A1B25C8A700CAF7D5 /* ViewController_EditLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_EditLoad.swift; sourceTree = "<group>"; };
+		A74E53081B26FF12003D9E98 /* CustomCell_LoadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell_LoadData.swift; sourceTree = "<group>"; };
+		A74E530C1B2710AC003D9E98 /* MWBeamGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWBeamGeneral.swift; sourceTree = "<group>"; };
+		A74E530E1B2720D3003D9E98 /* iosNumUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iosNumUtil.swift; sourceTree = "<group>"; };
+		A74E53101B285564003D9E98 /* MWLoadGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWLoadGraphView.swift; sourceTree = "<group>"; };
+		A74E53121B2869EB003D9E98 /* MWBeamGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWBeamGraphView.swift; sourceTree = "<group>"; };
+		A77419CD1B2EEA9500732B07 /* MWBeamForceUnits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MWBeamForceUnits.swift; path = ../MWBeamForceUnits.swift; sourceTree = "<group>"; };
+		A79F00881B36E30300387BB8 /* ViewController_Calcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Calcs.swift; sourceTree = "<group>"; };
+		A7BF21C51B3B507B00592B22 /* MWTextFormatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MWTextFormatHelper.swift; path = ../MWTextFormatHelper.swift; sourceTree = "<group>"; };
+		A7C100F31B32DC7300AA93E6 /* ViewController_DataGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_DataGrid.swift; sourceTree = "<group>"; };
+		A7C100F51B32DF5800AA93E6 /* CustomCell_TabularHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell_TabularHeader.swift; sourceTree = "<group>"; };
+		A7C100F71B32E9FB00AA93E6 /* CustomCell_GridData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell_GridData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A72942991B23104500A5938E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72942B01B23104500A5938E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72942931B23104500A5938E = {
+			isa = PBXGroup;
+			children = (
+				A73395991B25AAC600CAF7D5 /* myImages */,
+				A729429E1B23104500A5938E /* BeamGrapherForIpadV_0.0.3 */,
+				A72942B61B23104500A5938E /* BeamGrapherForIpadV_0.0.3Tests */,
+				A729429D1B23104500A5938E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A729429D1B23104500A5938E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A729429C1B23104500A5938E /* BeamGrapherForIpadV_0.0.3.app */,
+				A72942B31B23104500A5938E /* BeamGrapherForIpadV_0.0.3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A729429E1B23104500A5938E /* BeamGrapherForIpadV_0.0.3 */ = {
+			isa = PBXGroup;
+			children = (
+				A72942A71B23104500A5938E /* Main.storyboard */,
+				A77419CD1B2EEA9500732B07 /* MWBeamForceUnits.swift */,
+				A74E530C1B2710AC003D9E98 /* MWBeamGeneral.swift */,
+				A74E53121B2869EB003D9E98 /* MWBeamGraphView.swift */,
+				A74E53101B285564003D9E98 /* MWLoadGraphView.swift */,
+				A7BF21C51B3B507B00592B22 /* MWTextFormatHelper.swift */,
+				A74E530E1B2720D3003D9E98 /* iosNumUtil.swift */,
+				A72942CD1B247AFF00A5938E /* myProtocols.swift */,
+				A72942A11B23104500A5938E /* AppDelegate.swift */,
+				A74E530A1B270034003D9E98 /* Left Pane */,
+				A74E530B1B270068003D9E98 /* Right Pane */,
+				A72942AA1B23104500A5938E /* Images.xcassets */,
+				A72942AC1B23104500A5938E /* LaunchScreen.xib */,
+				A7125F8A1B49C212002B1988 /* Images-2.xcassets */,
+				A729429F1B23104500A5938E /* Supporting Files */,
+			);
+			path = BeamGrapherForIpadV_0.0.3;
+			sourceTree = "<group>";
+		};
+		A729429F1B23104500A5938E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A72942A01B23104500A5938E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A72942B61B23104500A5938E /* BeamGrapherForIpadV_0.0.3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A72942B91B23104500A5938E /* BeamGrapherForIpadV_0_0_3Tests.swift */,
+				A72942B71B23104500A5938E /* Supporting Files */,
+			);
+			path = BeamGrapherForIpadV_0.0.3Tests;
+			sourceTree = "<group>";
+		};
+		A72942B71B23104500A5938E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A72942B81B23104500A5938E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A73395991B25AAC600CAF7D5 /* myImages */ = {
+			isa = PBXGroup;
+			children = (
+				A73395911B25AAB100CAF7D5 /* 12x33_concentrated.png */,
+				A73395921B25AAB100CAF7D5 /* 40x33 LinearDown.png */,
+				A73395931B25AAB100CAF7D5 /* 40x33_LinearUp.png */,
+				A73395941B25AAB100CAF7D5 /* 40x33_Uniform.png */,
+			);
+			name = myImages;
+			sourceTree = "<group>";
+		};
+		A74E530A1B270034003D9E98 /* Left Pane */ = {
+			isa = PBXGroup;
+			children = (
+				A72942A31B23104500A5938E /* MasterViewController.swift */,
+				A72942C71B24607000A5938E /* CustomCell_BeamData.swift */,
+				A72942C51B23B85A00A5938E /* CustomCell_EditBeam.swift */,
+				A74E53081B26FF12003D9E98 /* CustomCell_LoadData.swift */,
+				A72942CB1B24778400A5938E /* ViewController_EditBeam.swift */,
+				A733959A1B25C8A700CAF7D5 /* ViewController_EditLoad.swift */,
+			);
+			name = "Left Pane";
+			sourceTree = "<group>";
+		};
+		A74E530B1B270068003D9E98 /* Right Pane */ = {
+			isa = PBXGroup;
+			children = (
+				A72942A51B23104500A5938E /* DetailViewController.swift */,
+				A79F00881B36E30300387BB8 /* ViewController_Calcs.swift */,
+				A7C100F31B32DC7300AA93E6 /* ViewController_DataGrid.swift */,
+				A7C100F71B32E9FB00AA93E6 /* CustomCell_GridData.swift */,
+				A7C100F51B32DF5800AA93E6 /* CustomCell_TabularHeader.swift */,
+			);
+			name = "Right Pane";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A729429B1B23104500A5938E /* BeamGrapherForIpadV_0.0.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72942BD1B23104500A5938E /* Build configuration list for PBXNativeTarget "BeamGrapherForIpadV_0.0.3" */;
+			buildPhases = (
+				A72942981B23104500A5938E /* Sources */,
+				A72942991B23104500A5938E /* Frameworks */,
+				A729429A1B23104500A5938E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeamGrapherForIpadV_0.0.3;
+			productName = BeamGrapherForIpadV_0.0.3;
+			productReference = A729429C1B23104500A5938E /* BeamGrapherForIpadV_0.0.3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A72942B21B23104500A5938E /* BeamGrapherForIpadV_0.0.3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72942C01B23104500A5938E /* Build configuration list for PBXNativeTarget "BeamGrapherForIpadV_0.0.3Tests" */;
+			buildPhases = (
+				A72942AF1B23104500A5938E /* Sources */,
+				A72942B01B23104500A5938E /* Frameworks */,
+				A72942B11B23104500A5938E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72942B51B23104500A5938E /* PBXTargetDependency */,
+			);
+			name = BeamGrapherForIpadV_0.0.3Tests;
+			productName = BeamGrapherForIpadV_0.0.3Tests;
+			productReference = A72942B31B23104500A5938E /* BeamGrapherForIpadV_0.0.3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A72942941B23104500A5938E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mark Walker";
+				TargetAttributes = {
+					A729429B1B23104500A5938E = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6F9Z2AKB5R;
+						LastSwiftMigration = 0830;
+					};
+					A72942B21B23104500A5938E = {
+						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = A729429B1B23104500A5938E;
+					};
+				};
+			};
+			buildConfigurationList = A72942971B23104500A5938E /* Build configuration list for PBXProject "BeamGrapherForIpadV_0.0.3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A72942931B23104500A5938E;
+			productRefGroup = A729429D1B23104500A5938E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A729429B1B23104500A5938E /* BeamGrapherForIpadV_0.0.3 */,
+				A72942B21B23104500A5938E /* BeamGrapherForIpadV_0.0.3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A729429A1B23104500A5938E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7125F8B1B49C212002B1988 /* Images-2.xcassets in Resources */,
+				A72942A91B23104500A5938E /* Main.storyboard in Resources */,
+				A73395981B25AAB100CAF7D5 /* 40x33_Uniform.png in Resources */,
+				A72942AE1B23104500A5938E /* LaunchScreen.xib in Resources */,
+				A73395971B25AAB100CAF7D5 /* 40x33_LinearUp.png in Resources */,
+				A72942AB1B23104500A5938E /* Images.xcassets in Resources */,
+				A73395961B25AAB100CAF7D5 /* 40x33 LinearDown.png in Resources */,
+				A73395951B25AAB100CAF7D5 /* 12x33_concentrated.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72942B11B23104500A5938E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A72942981B23104500A5938E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C100F81B32E9FB00AA93E6 /* CustomCell_GridData.swift in Sources */,
+				A72942A61B23104500A5938E /* DetailViewController.swift in Sources */,
+				A7C100F41B32DC7300AA93E6 /* ViewController_DataGrid.swift in Sources */,
+				A74E530D1B2710AC003D9E98 /* MWBeamGeneral.swift in Sources */,
+				A72942C81B24607000A5938E /* CustomCell_BeamData.swift in Sources */,
+				A72942A41B23104500A5938E /* MasterViewController.swift in Sources */,
+				A72942A21B23104500A5938E /* AppDelegate.swift in Sources */,
+				A79F00891B36E30300387BB8 /* ViewController_Calcs.swift in Sources */,
+				A74E53111B285564003D9E98 /* MWLoadGraphView.swift in Sources */,
+				A7C100F61B32DF5800AA93E6 /* CustomCell_TabularHeader.swift in Sources */,
+				A72942C61B23B85A00A5938E /* CustomCell_EditBeam.swift in Sources */,
+				A7BF21C61B3B507B00592B22 /* MWTextFormatHelper.swift in Sources */,
+				A72942CC1B24778400A5938E /* ViewController_EditBeam.swift in Sources */,
+				A74E53091B26FF12003D9E98 /* CustomCell_LoadData.swift in Sources */,
+				A74E53131B2869EB003D9E98 /* MWBeamGraphView.swift in Sources */,
+				A74E530F1B2720D3003D9E98 /* iosNumUtil.swift in Sources */,
+				A733959B1B25C8A700CAF7D5 /* ViewController_EditLoad.swift in Sources */,
+				A77419CE1B2EEA9500732B07 /* MWBeamForceUnits.swift in Sources */,
+				A72942CE1B247AFF00A5938E /* myProtocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72942AF1B23104500A5938E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72942BA1B23104500A5938E /* BeamGrapherForIpadV_0_0_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A72942B51B23104500A5938E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A729429B1B23104500A5938E /* BeamGrapherForIpadV_0.0.3 */;
+			targetProxy = A72942B41B23104500A5938E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A72942A71B23104500A5938E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72942A81B23104500A5938E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A72942AC1B23104500A5938E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72942AD1B23104500A5938E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A72942BB1B23104500A5938E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A72942BC1B23104500A5938E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A72942BE1B23104500A5938E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BeamGrapherForIpadV_0.0.3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.mdwalker.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2a29efe-9fd5-4b69-aabb-f1a5dd73c2af";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A72942BF1B23104500A5938E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BeamGrapherForIpadV_0.0.3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.mdwalker.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2a29efe-9fd5-4b69-aabb-f1a5dd73c2af";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A72942C11B23104500A5938E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mark Walker (6F9Z2AKB5R)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeamGrapherForIpadV_0.0.3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.mdwalker.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9a66ba42-b2e9-4583-9b9b-751b6926eaa6";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeamGrapherForIpadV_0.0.3.app/BeamGrapherForIpadV_0.0.3";
+			};
+			name = Debug;
+		};
+		A72942C21B23104500A5938E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mark Walker (6F9Z2AKB5R)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeamGrapherForIpadV_0.0.3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.mdwalker.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9a66ba42-b2e9-4583-9b9b-751b6926eaa6";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeamGrapherForIpadV_0.0.3.app/BeamGrapherForIpadV_0.0.3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A72942971B23104500A5938E /* Build configuration list for PBXProject "BeamGrapherForIpadV_0.0.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72942BB1B23104500A5938E /* Debug */,
+				A72942BC1B23104500A5938E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72942BD1B23104500A5938E /* Build configuration list for PBXNativeTarget "BeamGrapherForIpadV_0.0.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72942BE1B23104500A5938E /* Debug */,
+				A72942BF1B23104500A5938E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72942C01B23104500A5938E /* Build configuration list for PBXNativeTarget "BeamGrapherForIpadV_0.0.3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72942C11B23104500A5938E /* Debug */,
+				A72942C21B23104500A5938E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A72942941B23104500A5938E /* Project object */;
+}
